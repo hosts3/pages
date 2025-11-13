@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Life insurance agent | Life insurance agent</title>
+    <meta name="description" content="Home - Expert Life insurance agent in San Francisco. Professional service you can trust.">
+    <script type="application/ld+json">
+    {
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Life insurance agent - San Francisco",
+  "description": "Home",
+  "keywords": "Life insurance agent San Francisco, professional services, licensed, certified, local experts, trusted provider",
+  "image": {
+    "@type": "ImageObject",
+    "url": "/images/life-insurance-agent-san-francisco-home.jpg",
+    "description": "Home - Professional Life insurance agent in San Francisco",
+    "name": "Life insurance agent in San Francisco"
+  },
+  "telephone": "540-352-6249",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "San Francisco, CA",
+    "addressLocality": "San Francisco"
+  }
+}
+    </script>
+    <style>
+        body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; }
+        * { box-sizing: border-box; }
+        .nav-dropdown:hover .dropdown-content { display: block; }
+    </style>
+</head>
+<body>
+    
+    <style>
+      /* Click-based accessible navigation styles */
+      .nav-link {
+        color: white;
+        text-decoration: none;
+        padding: 0.5rem 0.75rem;
+        display: inline-block;
+        transition: opacity 0.2s;
+        background: none;
+        border: none;
+        cursor: pointer;
+        font-size: inherit;
+        font-family: inherit;
+      }
+      .nav-link:hover {
+        opacity: 0.8;
+      }
+      .nav-link.nav-trigger {
+        display: flex;
+        align-items: center;
+        gap: 0.25rem;
+      }
+      .dropdown-arrow {
+        transition: transform 0.2s;
+        font-size: 0.875rem;
+      }
+      .nav-trigger[aria-expanded="true"] .dropdown-arrow {
+        transform: rotate(180deg);
+      }
+      .nav-cta {
+        color: white;
+        text-decoration: none;
+        background: #2563eb;
+        padding: 0.5rem 1rem;
+        border-radius: 0.375rem;
+        font-weight: 600;
+        display: inline-block;
+        transition: background 0.2s;
+      }
+      .nav-cta:hover {
+        background: #1d4ed8;
+      }
+      .nav-dropdown {
+        position: relative;
+        display: inline-block;
+      }
+      .nav-menu {
+        display: none;
+        position: absolute;
+        background: #1e293b;
+        min-width: 200px;
+        box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+        z-index: 2000;
+        top: 100%;
+        left: 0;
+        border-radius: 0.375rem;
+        overflow: hidden;
+        margin-top: 0.25rem;
+      }
+      .nav-menu-wide {
+        min-width: 250px;
+      }
+      /* Show menu when data-open="true" */
+      .nav-menu[data-open="true"] {
+        display: block;
+        animation: slideDown 0.2s ease;
+      }
+      @keyframes slideDown {
+        from {
+          opacity: 0;
+          transform: translateY(-10px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+      .dropdown-item {
+        color: white;
+        padding: 0.75rem 1rem;
+        text-decoration: none;
+        display: block;
+        border-bottom: 1px solid #334155;
+        transition: background 0.2s;
+      }
+      .dropdown-item:last-child {
+        border-bottom: none;
+      }
+      .dropdown-item:hover,
+      .dropdown-item:focus {
+        background: #334155;
+        outline: 2px solid #3b82f6;
+        outline-offset: -2px;
+      }
+    </style>
+    <script>
+      // Click-based navigation controller - runs after DOM loads
+      document.addEventListener('DOMContentLoaded', function() {
+        const triggers = document.querySelectorAll('.nav-trigger');
+        let currentOpenMenu = null;
+        
+        // Toggle menu on click
+        triggers.forEach(function(trigger) {
+          trigger.addEventListener('click', function(e) {
+            e.stopPropagation();
+            const menuId = trigger.getAttribute('aria-controls');
+            const menu = document.getElementById(menuId);
+            const isOpen = trigger.getAttribute('aria-expanded') === 'true';
+            
+            // Close all other menus
+            closeAllMenus();
+            
+            // Toggle this menu
+            if (!isOpen) {
+              openMenu(trigger, menu);
+              currentOpenMenu = { trigger: trigger, menu: menu };
+            }
+          });
+          
+          // Handle keyboard navigation
+          trigger.addEventListener('keydown', function(e) {
+            if (e.key === 'Enter' || e.key === ' ') {
+              e.preventDefault();
+              trigger.click();
+            } else if (e.key === 'Escape') {
+              closeAllMenus();
+            }
+          });
+        });
+        
+        // Close menu when clicking outside
+        document.addEventListener('click', function(e) {
+          if (!e.target.closest('.nav-dropdown')) {
+            closeAllMenus();
+          }
+        });
+        
+        // Close menu on Escape key
+        document.addEventListener('keydown', function(e) {
+          if (e.key === 'Escape') {
+            closeAllMenus();
+          }
+        });
+        
+        function openMenu(trigger, menu) {
+          trigger.setAttribute('aria-expanded', 'true');
+          menu.setAttribute('data-open', 'true');
+        }
+        
+        function closeMenu(trigger, menu) {
+          trigger.setAttribute('aria-expanded', 'false');
+          menu.setAttribute('data-open', 'false');
+        }
+        
+        function closeAllMenus() {
+          triggers.forEach(function(t) {
+            const menuId = t.getAttribute('aria-controls');
+            const m = document.getElementById(menuId);
+            if (m) {
+              closeMenu(t, m);
+            }
+          });
+          currentOpenMenu = null;
+        }
+      });
+    </script>
+    <header style="background: #1e3a8a; color: white; padding: 1rem 0; box-shadow: 0 2px 4px rgba(0,0,0,0.1); position: sticky; top: 0; z-index: 1000;">
+      <div style="max-width: 1200px; margin: 0 auto; padding: 0 1rem; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem;">
+        <h1 style="margin: 0; font-size: 1.5rem; font-weight: 700;">Life insurance agent</h1>
+        <nav style="display: flex; gap: 0.5rem; align-items: center; flex-wrap: wrap;">
+          <a href="/" class="nav-link">Home</a><a href="/about" class="nav-link">About Us</a><a href="/services" class="nav-link">Services</a><a href="/service-areas" class="nav-link">Service Areas</a><a href="/blog" class="nav-link">Blog</a><a href="/faq" class="nav-link">FAQ</a><a href="/privacy-policy" class="nav-link">Privacy Policy</a><div class="nav-dropdown">
+        <button type="button" class="nav-link nav-trigger" aria-expanded="false" aria-haspopup="true" aria-controls="menu-services">
+          Services <span class="dropdown-arrow">▾</span>
+        </button>
+        <div id="menu-services" class="nav-menu" role="menu" data-open="false">
+          <a href="/life-insurance-agent-services" class="dropdown-item" role="menuitem">Life insurance agent Services</a><a href="/emergency-life-insurance-agent" class="dropdown-item" role="menuitem">Emergency Life insurance agent</a><a href="/life-insurance-agent-pricing" class="dropdown-item" role="menuitem">Life insurance agent Pricing</a><a href="/commercial-life-insurance-agent" class="dropdown-item" role="menuitem">Commercial Life insurance agent</a><a href="/residential-life-insurance-agent" class="dropdown-item" role="menuitem">Residential Life insurance agent</a><a href="/life-insurance-agent-maintenance" class="dropdown-item" role="menuitem">Life insurance agent Maintenance</a>
+        </div>
+      </div><div class="nav-dropdown">
+        <button type="button" class="nav-link nav-trigger" aria-expanded="false" aria-haspopup="true" aria-controls="menu-locations">
+          Locations <span class="dropdown-arrow">▾</span>
+        </button>
+        <div id="menu-locations" class="nav-menu" role="menu" data-open="false">
+          <a href="/life-insurance-agent-los-angeles-california" class="dropdown-item" role="menuitem">Life insurance agent in Los Angeles, California</a><a href="/life-insurance-agent-san-diego-california" class="dropdown-item" role="menuitem">Life insurance agent in San Diego, California</a><a href="/life-insurance-agent-san-jose-california" class="dropdown-item" role="menuitem">Life insurance agent in San Jose, California</a><a href="/life-insurance-agent-san-francisco-california" class="dropdown-item" role="menuitem">Life insurance agent in San Francisco, California</a><a href="/life-insurance-agent-fresno-california" class="dropdown-item" role="menuitem">Life insurance agent in Fresno, California</a><a href="/life-insurance-agent-sacramento-california" class="dropdown-item" role="menuitem">Life insurance agent in Sacramento, California</a>
+        </div>
+      </div><div class="nav-dropdown">
+        <button type="button" class="nav-link nav-trigger" aria-expanded="false" aria-haspopup="true" aria-controls="menu-blog">
+          Blog <span class="dropdown-arrow">▾</span>
+        </button>
+        <div id="menu-blog" class="nav-menu nav-menu-wide" role="menu" data-open="false">
+          <a href="/life-insurance-agent-guide" class="dropdown-item" role="menuitem">Life insurance agent guide</a><a href="/life-insurance-agent-tips" class="dropdown-item" role="menuitem">Life insurance agent tips</a><a href="/life-insurance-agent-cost" class="dropdown-item" role="menuitem">Life insurance agent cost</a><a href="/life-insurance-agent-problems" class="dropdown-item" role="menuitem">Life insurance agent problems</a><a href="/diy-life-insurance-agent" class="dropdown-item" role="menuitem">DIY Life insurance agent</a>
+        </div>
+      </div><a href="/contact" class="nav-cta">Contact</a>
+        </nav>
+      </div>
+    </header>
+    <main style="min-height: 60vh;">
+      
+          <!-- Hero Section with Image -->
+          <section style="background: linear-gradient(135deg, #1e40af 0%, #7c3aed 100%); color: white; padding: 6rem 1rem; text-align: center; position: relative;">
+            <div style="position: absolute; inset: 0; background: url('https://picsum.photos/seed/hero-life-insurance-agent/1920/1080') center/cover; opacity: 0.15;"></div>
+            <div style="position: relative; max-width: 1000px; margin: 0 auto;">
+              <h1 style="font-size: 3.5rem; margin-bottom: 1.5rem; font-weight: 800; line-height: 1.1;">Professional Life insurance agent in San Francisco</h1>
+              <p style="font-size: 1.4rem; margin-bottom: 2.5rem; opacity: 0.95; line-height: 1.6;">Expert life insurance agent services you can trust. Fast response, quality workmanship, and customer satisfaction guaranteed.</p>
+              <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+                <a href="contact.html" style="background: white; color: #1e40af; padding: 1rem 2.5rem; border-radius: 0.5rem; text-decoration: none; font-weight: 700; font-size: 1.1rem; box-shadow: 0 4px 6px rgba(0,0,0,0.3); transition: transform 0.2s;">Get Free Quote</a>
+                <a href="services.html" style="background: transparent; color: white; padding: 1rem 2.5rem; border-radius: 0.5rem; text-decoration: none; font-weight: 700; font-size: 1.1rem; border: 2px solid white;">View Services</a>
+              </div>
+            </div>
+          </section>
+
+          <!-- Stats Section -->
+          <section style="background: white; padding: 3rem 1rem; border-bottom: 1px solid #e5e7eb;">
+            <div style="max-width: 1200px; margin: 0 auto;">
+              <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 2rem; text-align: center;">
+                <div>
+                  <div style="font-size: 3rem; font-weight: 800; color: #2563eb; margin-bottom: 0.5rem;">15+</div>
+                  <div style="color: #64748b; font-size: 1.1rem;">Years Experience</div>
+                </div>
+                <div>
+                  <div style="font-size: 3rem; font-weight: 800; color: #2563eb; margin-bottom: 0.5rem;">5000+</div>
+                  <div style="color: #64748b; font-size: 1.1rem;">Happy Customers</div>
+                </div>
+                <div>
+                  <div style="font-size: 3rem; font-weight: 800; color: #2563eb; margin-bottom: 0.5rem;">24/7</div>
+                  <div style="color: #64748b; font-size: 1.1rem;">Emergency Service</div>
+                </div>
+                <div>
+                  <div style="font-size: 3rem; font-weight: 800; color: #2563eb; margin-bottom: 0.5rem;">100%</div>
+                  <div style="color: #64748b; font-size: 1.1rem;">Satisfaction Rate</div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- Services Grid with Images -->
+          <section style="background: #f8fafc; padding: 5rem 1rem;">
+            <div style="max-width: 1200px; margin: 0 auto;">
+              <h2 style="text-align: center; font-size: 2.5rem; margin-bottom: 1rem; color: #1e293b;">Our Life insurance agent Services</h2>
+              <p style="text-align: center; color: #64748b; font-size: 1.2rem; margin-bottom: 3rem; max-width: 700px; margin-left: auto; margin-right: auto;">We offer comprehensive life insurance agent solutions tailored to your specific needs in San Francisco.</p>
+              <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem;">
+                <div style="background: white; border-radius: 0.75rem; overflow: hidden; box-shadow: 0 4px 6px rgba(0,0,0,0.1); transition: transform 0.2s;">
+                  <div style="height: 200px; background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%); display: flex; align-items: center; justify-content: center;">
+                    <div style="font-size: 4rem;">🏠</div>
+                  </div>
+                  <div style="padding: 1.5rem;">
+                    <h3 style="color: #1e293b; margin-bottom: 1rem; font-size: 1.3rem;">Residential Life insurance agent</h3>
+                    <p style="color: #64748b; line-height: 1.7;">Complete life insurance agent solutions for homeowners. From routine maintenance to complex projects, we handle it all with expertise and care.</p>
+                  </div>
+                </div>
+                <div style="background: white; border-radius: 0.75rem; overflow: hidden; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+                  <div style="height: 200px; background: linear-gradient(135deg, #8b5cf6 0%, #7c3aed 100%); display: flex; align-items: center; justify-content: center;">
+                    <div style="font-size: 4rem;">🏢</div>
+                  </div>
+                  <div style="padding: 1.5rem;">
+                    <h3 style="color: #1e293b; margin-bottom: 1rem; font-size: 1.3rem;">Commercial Life insurance agent</h3>
+                    <p style="color: #64748b; line-height: 1.7;">Professional services for businesses of all sizes. We understand the unique requirements of commercial properties and deliver accordingly.</p>
+                  </div>
+                </div>
+                <div style="background: white; border-radius: 0.75rem; overflow: hidden; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+                  <div style="height: 200px; background: linear-gradient(135deg, #ec4899 0%, #db2777 100%); display: flex; align-items: center; justify-content: center;">
+                    <div style="font-size: 4rem;">⚡</div>
+                  </div>
+                  <div style="padding: 1.5rem;">
+                    <h3 style="color: #1e293b; margin-bottom: 1rem; font-size: 1.3rem;">Emergency Services</h3>
+                    <p style="color: #64748b; line-height: 1.7;">24/7 emergency response when you need it most. Our rapid response team is always ready to help with urgent life insurance agent needs.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- Benefits/Why Choose Us -->
+          <section style="background: white; padding: 5rem 1rem;">
+            <div style="max-width: 1200px; margin: 0 auto;">
+              <h2 style="text-align: center; font-size: 2.5rem; margin-bottom: 1rem; color: #1e293b;">Why Choose Us?</h2>
+              <p style="text-align: center; color: #64748b; font-size: 1.2rem; margin-bottom: 3rem;">We're the #1 choice for life insurance agent in San Francisco</p>
+              <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem;">
+                <div style="padding: 2rem; border: 2px solid #e5e7eb; border-radius: 0.75rem;">
+                  <div style="font-size: 2.5rem; margin-bottom: 1rem;">✓</div>
+                  <h3 style="color: #1e293b; margin-bottom: 1rem;">Licensed & Insured</h3>
+                  <p style="color: #64748b; line-height: 1.7;">Fully licensed, bonded, and insured for your complete peace of mind and protection.</p>
+                </div>
+                <div style="padding: 2rem; border: 2px solid #e5e7eb; border-radius: 0.75rem;">
+                  <div style="font-size: 2.5rem; margin-bottom: 1rem;">⭐</div>
+                  <h3 style="color: #1e293b; margin-bottom: 1rem;">Expert Technicians</h3>
+                  <p style="color: #64748b; line-height: 1.7;">Highly trained professionals with years of experience and ongoing certification.</p>
+                </div>
+                <div style="padding: 2rem; border: 2px solid #e5e7eb; border-radius: 0.75rem;">
+                  <div style="font-size: 2.5rem; margin-bottom: 1rem;">💰</div>
+                  <h3 style="color: #1e293b; margin-bottom: 1rem;">Fair Pricing</h3>
+                  <p style="color: #64748b; line-height: 1.7;">Transparent, competitive pricing with no hidden fees. Free estimates on all services.</p>
+                </div>
+                <div style="padding: 2rem; border: 2px solid #e5e7eb; border-radius: 0.75rem;">
+                  <div style="font-size: 2.5rem; margin-bottom: 1rem;">🛡️</div>
+                  <h3 style="color: #1e293b; margin-bottom: 1rem;">Warranty Included</h3>
+                  <p style="color: #64748b; line-height: 1.7;">All work backed by our comprehensive satisfaction and workmanship guarantee.</p>
+                </div>
+                <div style="padding: 2rem; border: 2px solid #e5e7eb; border-radius: 0.75rem;">
+                  <div style="font-size: 2.5rem; margin-bottom: 1rem;">⏰</div>
+                  <h3 style="color: #1e293b; margin-bottom: 1rem;">Fast Response</h3>
+                  <p style="color: #64748b; line-height: 1.7;">Same-day service available with flexible scheduling to fit your busy life.</p>
+<div class="lead-form-container" style="margin: 50px auto; padding: 30px; max-width: 600px; background: rgba(255,255,255,0.05); border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); clear: both;">
+  <div class="form-header" style="text-align: center; margin-bottom: 20px;">
+    <h3 style="margin: 0 0 10px 0; color: inherit;">Request More Information</h3>
+    <p style="margin: 0; opacity: 0.8;">Interested in learning more? Submit the form below.</p>
+  </div>
+  <!-- Lead Generation Form -->
+  <iframe
+    src="https://link.marketingprosuite.com/widget/form/mmHGRAHHmNU43wlSsZKW"
+    style="width:100%;height:100%;border:none;border-radius:4px"
+    id="inline-mmHGRAHHmNU43wlSsZKW" 
+    data-layout="{'id':'INLINE'}"
+    data-trigger-type="alwaysShow"
+    data-trigger-value=""
+    data-activation-type="alwaysActivated"
+    data-activation-value=""
+    data-deactivation-type="neverDeactivate"
+    data-deactivation-value=""
+    data-form-name="Contact Form"
+    data-height="1203"
+    data-layout-iframe-id="inline-mmHGRAHHmNU43wlSsZKW"
+    data-form-id="mmHGRAHHmNU43wlSsZKW"
+    title="Contact Form"
+        >
+</iframe>
+<script src="https://link.marketingprosuite.com/js/form_embed.js"></script>
+</div>
+                </div>
+                <div style="padding: 2rem; border: 2px solid #e5e7eb; border-radius: 0.75rem;">
+                  <div style="font-size: 2.5rem; margin-bottom: 1rem;">🏆</div>
+                  <h3 style="color: #1e293b; margin-bottom: 1rem;">Local Leaders</h3>
+                  <p style="color: #64748b; line-height: 1.7;">Proud to be San Francisco's most trusted life insurance agent provider.</p>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- Service Areas with Map Image -->
+          <section style="background: #f8fafc; padding: 5rem 1rem;">
+            <div style="max-width: 1200px; margin: 0 auto;">
+              <h2 style="text-align: center; font-size: 2.5rem; margin-bottom: 1rem; color: #1e293b;">Areas We Serve</h2>
+              <p style="text-align: center; color: #64748b; font-size: 1.2rem; margin-bottom: 3rem;">Providing life insurance agent services throughout San Francisco and surrounding communities</p>
+              <div style="background: white; border-radius: 0.75rem; padding: 2rem; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+                <div style="height: 300px; background: linear-gradient(135deg, #dbeafe 0%, #bfdbfe 100%); border-radius: 0.5rem; display: flex; align-items: center; justify-content: center; margin-bottom: 2rem;">
+                  <div style="text-align: center;">
+                    <div style="font-size: 4rem; margin-bottom: 1rem;">📍</div>
+                    <div style="color: #1e40af; font-weight: 600; font-size: 1.2rem;">San Francisco & Surrounding Areas</div>
+                  </div>
+                </div>
+                <p style="text-align: center; color: #64748b; font-size: 1.1rem; line-height: 1.7;">We proudly serve San Francisco and all nearby communities within a 50-mile radius. Not sure if we cover your area? Contact us to confirm service availability in your location.</p>
+              </div>
+            </div>
+          </section>
+
+          <!-- Process/How It Works -->
+          <section style="background: white; padding: 5rem 1rem;">
+            <div style="max-width: 1200px; margin: 0 auto;">
+              <h2 style="text-align: center; font-size: 2.5rem; margin-bottom: 1rem; color: #1e293b;">Our Simple Process</h2>
+              <p style="text-align: center; color: #64748b; font-size: 1.2rem; margin-bottom: 3rem;">Getting started is easy - here's how it works</p>
+              <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem;">
+                <div style="text-align: center;">
+                  <div style="width: 80px; height: 80px; background: #2563eb; color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 1.5rem; font-size: 2rem; font-weight: 800;">1</div>
+                  <h3 style="color: #1e293b; margin-bottom: 1rem; font-size: 1.3rem;">Contact Us</h3>
+                  <p style="color: #64748b; line-height: 1.7;">Call or fill out our online form to describe your life insurance agent needs.</p>
+                </div>
+                <div style="text-align: center;">
+                  <div style="width: 80px; height: 80px; background: #7c3aed; color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 1.5rem; font-size: 2rem; font-weight: 800;">2</div>
+                  <h3 style="color: #1e293b; margin-bottom: 1rem; font-size: 1.3rem;">Free Estimate</h3>
+                  <p style="color: #64748b; line-height: 1.7;">We'll provide a detailed, no-obligation quote for the work needed.</p>
+                </div>
+                <div style="text-align: center;">
+                  <div style="width: 80px; height: 80px; background: #db2777; color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 1.5rem; font-size: 2rem; font-weight: 800;">3</div>
+                  <h3 style="color: #1e293b; margin-bottom: 1rem; font-size: 1.3rem;">Schedule Service</h3>
+                  <p style="color: #64748b; line-height: 1.7;">Pick a time that works for you - we offer flexible scheduling options.</p>
+                </div>
+                <div style="text-align: center;">
+                  <div style="width: 80px; height: 80px; background: #059669; color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 1.5rem; font-size: 2rem; font-weight: 800;">4</div>
+                  <h3 style="color: #1e293b; margin-bottom: 1rem; font-size: 1.3rem;">Expert Service</h3>
+                  <p style="color: #64748b; line-height: 1.7;">Our skilled technicians complete the job efficiently and professionally.</p>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- Testimonials -->
+          <section style="background: #f8fafc; padding: 5rem 1rem;">
+            <div style="max-width: 1200px; margin: 0 auto;">
+              <h2 style="text-align: center; font-size: 2.5rem; margin-bottom: 1rem; color: #1e293b;">What Our Customers Say</h2>
+              <p style="text-align: center; color: #64748b; font-size: 1.2rem; margin-bottom: 3rem;">Don't just take our word for it - hear from satisfied customers in San Francisco</p>
+              <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem;">
+                <div style="background: white; padding: 2rem; border-radius: 0.75rem; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+                  <div style="color: #fbbf24; font-size: 1.5rem; margin-bottom: 1rem;">⭐⭐⭐⭐⭐</div>
+                  <p style="color: #475569; font-style: italic; margin-bottom: 1.5rem; line-height: 1.7;">"Absolutely fantastic service! They were professional, on time, and did an outstanding job. I highly recommend them for any life insurance agent needs."</p>
+                  <div style="font-weight: 600; color: #1e293b;">Sarah M.</div>
+                  <div style="color: #94a3b8; font-size: 0.9rem;">San Francisco Resident</div>
+                </div>
+                <div style="background: white; padding: 2rem; border-radius: 0.75rem; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+                  <div style="color: #fbbf24; font-size: 1.5rem; margin-bottom: 1rem;">⭐⭐⭐⭐⭐</div>
+                  <p style="color: #475569; font-style: italic; margin-bottom: 1.5rem; line-height: 1.7;">"The best life insurance agent company I've worked with. Fair pricing, excellent communication, and quality work. They've earned a customer for life!"</p>
+                  <div style="font-weight: 600; color: #1e293b;">Michael R.</div>
+                  <div style="color: #94a3b8; font-size: 0.9rem;">Local Business Owner</div>
+                </div>
+                <div style="background: white; padding: 2rem; border-radius: 0.75rem; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+                  <div style="color: #fbbf24; font-size: 1.5rem; margin-bottom: 1rem;">⭐⭐⭐⭐⭐</div>
+                  <p style="color: #475569; font-style: italic; margin-bottom: 1.5rem; line-height: 1.7;">"Quick response time and they fixed the problem right the first time. Their technicians are knowledgeable and courteous. Will definitely use them again!"</p>
+                  <div style="font-weight: 600; color: #1e293b;">Jennifer L.</div>
+                  <div style="color: #94a3b8; font-size: 0.9rem;">Homeowner</div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- About Section -->
+          <section style="background: white; padding: 5rem 1rem;">
+            <div style="max-width: 1200px; margin: 0 auto;">
+              <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 3rem; align-items: center;">
+                <div>
+                  <div style="height: 400px; background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%); border-radius: 0.75rem; display: flex; align-items: center; justify-content: center;">
+                    <div style="font-size: 8rem; opacity: 0.8;">👥</div>
+                  </div>
+                </div>
+                <div>
+                  <h2 style="font-size: 2.5rem; margin-bottom: 1.5rem; color: #1e293b;">About Our Company</h2>
+                  <p style="color: #475569; line-height: 1.8; margin-bottom: 1.5rem; font-size: 1.1rem;">We've been proudly serving San Francisco for over 15 years, establishing ourselves as the area's most trusted life insurance agent provider. Our commitment to excellence and customer satisfaction has made us the go-to choice for both residential and commercial clients.</p>
+                  <p style="color: #475569; line-height: 1.8; margin-bottom: 1.5rem; font-size: 1.1rem;">Our team of certified professionals brings unmatched expertise and dedication to every project. We use only the highest quality materials and latest techniques to ensure your complete satisfaction.</p>
+                  <a href="about.html" style="display: inline-block; background: #2563eb; color: white; padding: 1rem 2rem; border-radius: 0.5rem; text-decoration: none; font-weight: 600; margin-top: 1rem;">Learn More About Us</a>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- FAQ Section -->
+          <section style="background: #f8fafc; padding: 5rem 1rem;">
+            <div style="max-width: 900px; margin: 0 auto;">
+              <h2 style="text-align: center; font-size: 2.5rem; margin-bottom: 1rem; color: #1e293b;">Frequently Asked Questions</h2>
+              <p style="text-align: center; color: #64748b; font-size: 1.2rem; margin-bottom: 3rem;">Get answers to common questions about our life insurance agent services</p>
+              <div style="display: grid; gap: 1rem;">
+                <details style="background: white; padding: 1.5rem; border-radius: 0.5rem; box-shadow: 0 1px 3px rgba(0,0,0,0.1);">
+                  <summary style="font-weight: 600; color: #1e293b; cursor: pointer; font-size: 1.1rem;">What areas do you serve?</summary>
+                  <p style="margin-top: 1rem; color: #64748b; line-height: 1.7;">We proudly serve San Francisco and all surrounding communities within a 50-mile radius. Contact us to confirm service availability in your specific location.</p>
+                </details>
+                <details style="background: white; padding: 1.5rem; border-radius: 0.5rem; box-shadow: 0 1px 3px rgba(0,0,0,0.1);">
+                  <summary style="font-weight: 600; color: #1e293b; cursor: pointer; font-size: 1.1rem;">How quickly can you respond to service calls?</summary>
+                  <p style="margin-top: 1rem; color: #64748b; line-height: 1.7;">We offer same-day service for most requests and 24/7 emergency response. Call us to discuss your specific needs and we'll accommodate your schedule.</p>
+                </details>
+                <details style="background: white; padding: 1.5rem; border-radius: 0.5rem; box-shadow: 0 1px 3px rgba(0,0,0,0.1);">
+                  <summary style="font-weight: 600; color: #1e293b; cursor: pointer; font-size: 1.1rem;">Do you offer free estimates?</summary>
+                  <p style="margin-top: 1rem; color: #64748b; line-height: 1.7;">Yes! We provide free, no-obligation estimates for all life insurance agent services. Contact us today to schedule your free consultation.</p>
+                </details>
+                <details style="background: white; padding: 1.5rem; border-radius: 0.5rem; box-shadow: 0 1px 3px rgba(0,0,0,0.1);">
+                  <summary style="font-weight: 600; color: #1e293b; cursor: pointer; font-size: 1.1rem;">Are you licensed and insured?</summary>
+                  <p style="margin-top: 1rem; color: #64748b; line-height: 1.7;">Absolutely. We are fully licensed, bonded, and insured for your protection and peace of mind. All our technicians are certified professionals.</p>
+                </details>
+                <details style="background: white; padding: 1.5rem; border-radius: 0.5rem; box-shadow: 0 1px 3px rgba(0,0,0,0.1);">
+                  <summary style="font-weight: 600; color: #1e293b; cursor: pointer; font-size: 1.1rem;">What payment methods do you accept?</summary>
+                  <p style="margin-top: 1rem; color: #64748b; line-height: 1.7;">We accept all major credit cards, checks, and cash. Financing options are also available for qualifying customers on larger projects.</p>
+                </details>
+                <details style="background: white; padding: 1.5rem; border-radius: 0.5rem; box-shadow: 0 1px 3px rgba(0,0,0,0.1);">
+                  <summary style="font-weight: 600; color: #1e293b; cursor: pointer; font-size: 1.1rem;">Do you guarantee your work?</summary>
+                  <p style="margin-top: 1rem; color: #64748b; line-height: 1.7;">Yes! All our work is backed by our comprehensive satisfaction guarantee. We stand behind our workmanship and will make it right if you're not completely satisfied.</p>
+                </details>
+              </div>
+            </div>
+          </section>
+
+          <!-- Final CTA Section -->
+          <section style="background: linear-gradient(135deg, #1e40af 0%, #7c3aed 100%); color: white; padding: 5rem 1rem; text-align: center;">
+            <div style="max-width: 900px; margin: 0 auto;">
+              <h2 style="font-size: 3rem; margin-bottom: 1.5rem; font-weight: 800;">Ready to Get Started?</h2>
+              <p style="font-size: 1.3rem; margin-bottom: 2.5rem; opacity: 0.95;">Contact us today for a free quote on your life insurance agent project in San Francisco. Our friendly team is standing by to help!</p>
+              <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+                <a href="contact.html" style="background: white; color: #1e40af; padding: 1.25rem 3rem; border-radius: 0.5rem; text-decoration: none; font-weight: 700; font-size: 1.2rem; box-shadow: 0 4px 6px rgba(0,0,0,0.3);">Request Free Quote</a>
+                <a href="tel:+1234567890" style="background: transparent; color: white; padding: 1.25rem 3rem; border-radius: 0.5rem; text-decoration: none; font-weight: 700; font-size: 1.2rem; border: 2px solid white;">Call Now</a>
+              </div>
+            </div>
+          </section>
+    </main>
+    
+    <footer style="background: #1e293b; color: white; padding: 3rem 0 1.5rem; margin-top: 4rem; border-top: 4px solid #2563eb;">
+      <div style="max-width: 1200px; margin: 0 auto; padding: 0 1rem;">
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem; margin-bottom: 2rem;">
+          <div>
+            <h3 style="color: #2563eb; margin-bottom: 1rem; font-size: 1.25rem;">Life insurance agent</h3>
+            <p style="color: #94a3b8; line-height: 1.6;">Providing professional life insurance agent services throughout San Francisco and surrounding areas. Your trusted local experts since establishment.</p>
+          </div>
+          <div>
+            <h4 style="margin-bottom: 1rem;">Quick Links</h4>
+            <ul style="list-style: none; padding: 0; margin: 0;">
+              <li style="margin-bottom: 0.5rem;"><a href="/" style="color: #94a3b8; text-decoration: none;">Home</a></li>
+              <li style="margin-bottom: 0.5rem;"><a href="/about" style="color: #94a3b8; text-decoration: none;">About Us</a></li>
+              <li style="margin-bottom: 0.5rem;"><a href="/services" style="color: #94a3b8; text-decoration: none;">Services</a></li>
+              <li style="margin-bottom: 0.5rem;"><a href="/contact" style="color: #94a3b8; text-decoration: none;">Contact</a></li>
+            </ul>
+          </div>
+          <div>
+            <h4 style="margin-bottom: 1rem;">Contact Info</h4>
+            <p style="color: #94a3b8; margin-bottom: 0.5rem;">📍 Serving San Francisco</p>
+            <p style="color: #94a3b8; margin-bottom: 0.5rem;">📞 Call for a free quote</p>
+<div class="lead-form-container" style="margin: 50px auto; padding: 30px; max-width: 600px; background: rgba(255,255,255,0.05); border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); clear: both;">
+  <div class="form-header" style="text-align: center; margin-bottom: 20px;">
+    <h3 style="margin: 0 0 10px 0; color: inherit;">Request More Information</h3>
+    <p style="margin: 0; opacity: 0.8;">Interested in learning more? Submit the form below.</p>
+  </div>
+  <!-- Lead Generation Form -->
+  <iframe
+    src="https://link.marketingprosuite.com/widget/form/mmHGRAHHmNU43wlSsZKW"
+    style="width:100%;height:100%;border:none;border-radius:4px"
+    id="inline-mmHGRAHHmNU43wlSsZKW" 
+    data-layout="{'id':'INLINE'}"
+    data-trigger-type="alwaysShow"
+    data-trigger-value=""
+    data-activation-type="alwaysActivated"
+    data-activation-value=""
+    data-deactivation-type="neverDeactivate"
+    data-deactivation-value=""
+    data-form-name="Contact Form"
+    data-height="1203"
+    data-layout-iframe-id="inline-mmHGRAHHmNU43wlSsZKW"
+    data-form-id="mmHGRAHHmNU43wlSsZKW"
+    title="Contact Form"
+        >
+</iframe>
+<script src="https://link.marketingprosuite.com/js/form_embed.js"></script>
+</div>
+            <p style="color: #94a3b8;">⏰ Available 7 days a week</p>
+          </div>
+        </div>
+        <div style="text-align: center; padding-top: 2rem; border-top: 1px solid #334155; color: #64748b;">
+          <p>&copy; 2025 Life insurance agent in San Francisco. All rights reserved.</p>
+          <p style="margin-top: 0.5rem;">
+            <a href="privacy-policy.html" style="color: #64748b; text-decoration: none; margin: 0 0.5rem;">Privacy Policy</a> | 
+            <a href="terms.html" style="color: #64748b; text-decoration: none; margin: 0 0.5rem;">Terms of Service</a>
+          </p>
+        </div>
+      </div>
+    </footer>
+</body>
+</html>
